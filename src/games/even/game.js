@@ -1,10 +1,9 @@
 import ask from './ask.js';
-import name from '../../cli.js';
 
 export default () => {
   console.log('Welcome to the Brain Games!');
 
-  const user = name;
+  const user = ask('May I have your name? ');
 
   console.log(`Hello, ${user}!`);
 

@@ -9,8 +9,9 @@ export default (rules, generateQuestion) => {
   console.log(rules);
 
   let won = true;
+  const rounds = 3;
 
-  for (let i = 0; i < 3; i += 1) {
+  for (let i = 0; i < rounds; i += 1) {
     const [question, correctAnswer] = generateQuestion();
 
     const answer = readlineSync.question(`Question: ${question}\nYour answer: `);

@@ -10,3 +10,8 @@
 brain-even demonstration:
 
 https://asciinema.org/a/mSpVSKKRtRBjcqNBVG1M6HUAw
+
+
+brain-calc demonstration:
+
+https://asciinema.org/a/9MokNVTwaDuCX9D8LljyVFcjJ

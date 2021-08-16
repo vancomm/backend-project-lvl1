@@ -4,9 +4,8 @@ import { getRandomInt } from '../random.js';
 
 const gcd = (a, b) => {
   if (a !== 0 && b !== 0) {
-    if (a > b) a %= b;
-    else b %= a;
-    return gcd(a, b);
+    if (a > b) return gcd(a % b, b);
+    return gcd(a, b % a);
   }
   return a + b;
 };
